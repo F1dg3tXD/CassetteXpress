@@ -62,7 +62,7 @@ class MusicPlayer(QWidget):
         layout.addLayout(controls_layout)
 
         self.setLayout(layout)
-        self.setWindowTitle("CassetteX")
+        self.setWindowTitle("CassetteXpress")
         self.resize(800, 600)
 
     def open_file_folder(self):
